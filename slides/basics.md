@@ -148,13 +148,33 @@ Classless Inter-Domain Routing
 - A DMZ is a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted, usually larger, network such as the Internet
 - Add an additional layer of security to an organization's local area network (LAN)
 
+![Single FW](img/single-fw.png)
+![Dual FW](img/dual-fw.png)
+
 ----
 
 ### DNS
 
+- The **Domain Name System (DNS)** is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network
+- Associates various information with domain names assigned to each of the participating entities
+- For example
+  - A record : associate a DNS name to an IPv4
+  - AAAA record : associate a DNS name to an IPv6
+  - CNAME record : Alias of one name to another
+  - NS record : Delegates a DNS zone to use the given authoritative name servers
+  - MX record : Maps a domain name to a list of message transfer agents for that domain
+  - SRV record
+
+(For a complete list, please look here : https://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
 ----
 
 ### NAT
+
+- **Network address translation (NAT)** is a method of mapping an IP address space into another
+- One Internet-routable IP address of a NAT gateway can be used for an entire private network
+
+![NAT](img/nat.jpg)
 
 ----
 
