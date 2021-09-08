@@ -34,7 +34,7 @@ VPC provides networking for your cloud-based resources and services that is glob
 
 ### VPC
 
-![VPC](img/vpc.png)
+<img src="img/vpc.png" width="75%" />
 
 ----
 

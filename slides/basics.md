@@ -142,7 +142,7 @@ Classless Inter-Domain Routing
 
 ### Static vs Dynamic (DHCP)
 
-![DHCP](img/dhcp.png)
+<img src="img/dhcp.png" width="45%" />
 
 ----
 
