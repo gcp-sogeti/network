@@ -26,17 +26,27 @@ Cloud CDN enables customers to deliver content hosted on-premises or in another 
 
 ### VPC
 
+Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment.
+
+VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible.
+
+![VPC](img/vpc.png)
+
 ----
 
-### VPC peering
+### Firewalls
 
-----
+VPC firewall rules let you allow or deny connections to or from your virtual machine (VM) instances based on a configuration that you specify.
 
-### Firewall
+Enabled VPC firewall rules are always enforced, protecting your instances regardless of their configuration and operating system, even if they have not started up.
 
 ----
 
 ### Routes
+
+Google Cloud routes define the paths that network traffic takes from a virtual machine (VM) instance to other destinations. These destinations can be inside your Google Cloud Virtual Private Cloud (VPC) network (for example, in another VM) or outside it.
+
+In a VPC network, a route consists of a single destination prefix in CIDR format and a single next hop. When an instance in a VPC network sends a packet, Google Cloud delivers the packet to the route's next hop if the packet's destination address is within the route's destination range.
 
 ----
 
