@@ -106,6 +106,14 @@ Classless Inter-Domain Routing
 
 ----
 
+### Static vs Dynamic (DHCP)
+
+- The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
+
+![DHCP](img/dhcp.jpg)
+
+----
+
 ### Ports
 
 - A port is a communication endpoint
@@ -178,16 +186,27 @@ Classless Inter-Domain Routing
 
 ----
 
-### VPN / LS
+### VPN / MPLS
+
+- A virtual private network (VPN) extends a private network across a public network and enables users to send and receive data across shared or public networks
+- The benefits of a VPN include increases in functionality, security, and management of the private network
+- Operates on layer 2 or 3
+- Multi-Protocol Label Switching (MPLS) often overlays VPNs, often with quality-of-service control over a trusted delivery network
+- L2TP which is a standards-based replacement, and a compromise taking the good features from each, for two proprietary VPN protocols
+
+![VPN](img/vpn.jpg)
 
 ----
 
 ### Router
 
+- A router is a networking device that forwards data packets between computer networks
+- A router is connected to two or more data lines from different IP networks
+
 ----
 
 ### Routing (BGP)
 
-----
+- Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet
 
-### Static vs Dynamic (DHCP)
+![BGP](img/bgp.jpg)
