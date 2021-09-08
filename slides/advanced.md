@@ -25,6 +25,10 @@
 
 - Load balancing refers to the process of distributing a set of tasks over a set of resources (computing units), with the aim of making their overall processing more efficient
 
+----
+
+### Load balancing
+
 ![Load Balancing](img/load-balancing.png)
 
 ----
