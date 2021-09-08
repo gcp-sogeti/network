@@ -8,8 +8,22 @@
 |---|---|---|
 | 7 | Application layer | Human-computer interaction layer, where applications can access the network services |
 | 6 | Presentation layer | Ensures that data is in a usable format and is where data encryption occurs |
+
+----
+
+### OSI Model
+
+| Layer # | Name | Description |
+|---|---|---|
 | 5 | Session layer | Maintains connections and is responsible for controlling ports and sessions |
 | 4 | Transport layer | Transmits data using transmission protocols including TCP and UDP |
+
+----
+
+### OSI Model
+
+| Layer # | Name | Description |
+|---|---|---|
 | 3 | Network layer | Decides which physical path the data will take |
 | 2 | Data link layer | Defines the format of data on the network |
 | 1 | Physical layer | Transmits raw bit stream over the physical medium |
@@ -24,6 +38,13 @@
 | 6 | Presentation layer | SSL, TLS |
 | 5 | Session layer | NetBIOS, PPTP |
 | 4 | Transport layer | TCP, UDP |
+
+----
+
+### OSI Model
+
+| Layer # | Name | Example protocols |
+|---|---|---|
 | 3 | Network layer | IP, ARP, ICMP, IPSec |
 | 2 | Data link layer | PPP, ATM, Ethernet |
 | 1 | Physical layer | Ethernet, USB, Bluetooth, IEEE 802.11 |
@@ -56,7 +77,7 @@
   - SYN/ACK (synchronize / acknowledge)
   - ACK (acknowleged)
 
-![3-way handshake](img/syn-ack.png)
+<img src="img/syn-ack.png" width="40%" />
 
 ----
 
@@ -99,6 +120,13 @@ Classless Inter-Domain Routing
   - 1 048 576 IPs available
 - Class C : 192.168.0.0/24
   - 65 536 IPs available
+
+----
+
+### CIDR
+
+Classless Inter-Domain Routing
+
 - Class D : 224.0.0.0/32
   - Multicast
 - Class E : 240.0.0.0/32
@@ -124,7 +152,7 @@ Classless Inter-Domain Routing
 
 ----
 
-## Common port numbers
+### Common port numbers
 
 | Number | Assignment |
 |---|---|
@@ -132,6 +160,13 @@ Classless Inter-Domain Routing
 | 21 | File Transfer Protocol (FTP) Command Control |
 | 22 | Secure Shell (SSH) Secure Login |
 | 25 | Simple Mail Transfer Protocol (SMTP) email delivery |
+
+----
+
+### Common port numbers
+
+| Number | Assignment |
+|---|---|
 | 53 | Domain Name System (DNS) service |
 | 80 | Hypertext Transfer Protocol (HTTP) used in the World Wide Web |
 | 443 | HTTP Secure (HTTPS) HTTP over TLS/SSL |
@@ -142,10 +177,24 @@ Classless Inter-Domain Routing
 
 - A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules
 - Operates on layer 4 of the OSI model
+
+----
+
+### Firewalls
+
 - Packet filter
   - The first reported type of network firewall is called a packet filter, which inspect packets transferred between computers. The firewall maintains an access control list which dictates what packets will be looked at and what action should be applied
+
+----
+
+### Firewalls
+
 - Connection tracking
   - Second-generation firewalls perform the work of their first-generation predecessors but also maintain knowledge of specific conversations between endpoints by remembering which port number the two IP addresses are using
+
+----
+
+### Firewalls
 
 ![Firewall](img/firewall.png)
 
@@ -156,6 +205,10 @@ Classless Inter-Domain Routing
 - A DMZ is a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted, usually larger, network such as the Internet
 - Add an additional layer of security to an organization's local area network (LAN)
 
+----
+
+### DMZ
+
 ![Single FW](img/single-fw.png)
 ![Dual FW](img/dual-fw.png)
 
@@ -165,6 +218,11 @@ Classless Inter-Domain Routing
 
 - The **Domain Name System (DNS)** is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network
 - Associates various information with domain names assigned to each of the participating entities
+
+----
+
+### DNS
+
 - For example
   - A record : associate a DNS name to an IPv4
   - AAAA record : associate a DNS name to an IPv6
@@ -182,7 +240,7 @@ Classless Inter-Domain Routing
 - **Network address translation (NAT)** is a method of mapping an IP address space into another
 - One Internet-routable IP address of a NAT gateway can be used for an entire private network
 
-![NAT](img/nat.jpg)
+<img src="img/nat.png" width="70%" />
 
 ----
 
