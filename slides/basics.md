@@ -138,7 +138,7 @@ Classless Inter-Domain Routing
 
 - The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
 
-![DHCP](img/dhcp.jpg)
+![DHCP](img/dhcp.png)
 
 ----
 
@@ -207,9 +207,14 @@ Classless Inter-Domain Routing
 
 ----
 
-### DMZ
+### DMZ : Single firewall
 
 ![Single FW](img/single-fw.png)
+
+----
+
+### DMZ : Dual firewalls
+
 ![Dual FW](img/dual-fw.png)
 
 ----
@@ -229,7 +234,6 @@ Classless Inter-Domain Routing
   - CNAME record : Alias of one name to another
   - NS record : Delegates a DNS zone to use the given authoritative name servers
   - MX record : Maps a domain name to a list of message transfer agents for that domain
-  - SRV record
 
 (For a complete list, please look here : https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 
@@ -240,7 +244,7 @@ Classless Inter-Domain Routing
 - **Network address translation (NAT)** is a method of mapping an IP address space into another
 - One Internet-routable IP address of a NAT gateway can be used for an entire private network
 
-<img src="img/nat.png" width="70%" />
+<img src="img/nat.jpg" width="70%" />
 
 ----
 
@@ -249,10 +253,15 @@ Classless Inter-Domain Routing
 - A virtual private network (VPN) extends a private network across a public network and enables users to send and receive data across shared or public networks
 - The benefits of a VPN include increases in functionality, security, and management of the private network
 - Operates on layer 2 or 3
+
+----
+
+### VPN / MPLS
+
 - Multi-Protocol Label Switching (MPLS) often overlays VPNs, often with quality-of-service control over a trusted delivery network
 - L2TP which is a standards-based replacement, and a compromise taking the good features from each, for two proprietary VPN protocols
 
-![VPN](img/vpn.jpg)
+![VPN](img/vpn.png)
 
 ----
 
@@ -267,4 +276,4 @@ Classless Inter-Domain Routing
 
 - Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet
 
-![BGP](img/bgp.jpg)
+![BGP](img/bgp.png)
