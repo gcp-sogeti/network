@@ -136,7 +136,11 @@ Classless Inter-Domain Routing
 
 ### Static vs Dynamic (DHCP)
 
-- The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
+- The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture
+
+----
+
+### Static vs Dynamic (DHCP)
 
 ![DHCP](img/dhcp.png)
 
@@ -235,7 +239,7 @@ Classless Inter-Domain Routing
   - NS record : Delegates a DNS zone to use the given authoritative name servers
   - MX record : Maps a domain name to a list of message transfer agents for that domain
 
-(For a complete list, please look here : https://en.wikipedia.org/wiki/List_of_DNS_record_types)
+https://en.wikipedia.org/wiki/List_of_DNS_record_types
 
 ----
 
@@ -260,6 +264,10 @@ Classless Inter-Domain Routing
 
 - Multi-Protocol Label Switching (MPLS) often overlays VPNs, often with quality-of-service control over a trusted delivery network
 - L2TP which is a standards-based replacement, and a compromise taking the good features from each, for two proprietary VPN protocols
+
+----
+
+### VPN / MPLS
 
 ![VPN](img/vpn.png)
 

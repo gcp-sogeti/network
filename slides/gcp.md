@@ -6,7 +6,7 @@
 
 Cloud NAT lets certain resources without external IP addresses create outbound connections to the internet.
 
-![Cloud NAT](img/cloud-nat.png)
+<img src="img/cloud-nat.png" width="90%" />
 
 ----
 
@@ -20,15 +20,19 @@ Cloud DNS is a high-performance, resilient, global Domain Name System (DNS) serv
 
 Cloud CDN enables customers to deliver content hosted on-premises or in another cloud over Google's high-performance distributed edge caching infrastructure
 
-![Cloud CDN](img/cloud-cdn.png)
+<img src="img/cloud-cdn.png" width="80%" />
 
 ----
 
 ### VPC
 
-Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment.
+Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment
 
-VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible.
+VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible
+
+----
+
+### VPC
 
 ![VPC](img/vpc.png)
 
@@ -58,6 +62,10 @@ Traffic traveling between the two networks is encrypted by one VPN gateway and t
 
 This action protects your data as it travels over the internet
 
+----
+
+### Cloud VPN (IPSec)
+
 ![Cloud VPN](img/cloud-vpn.png)
 
 ----
@@ -75,5 +83,9 @@ Cloud Router is a fully distributed and managed Google Cloud service that uses t
 Cloud Interconnect provides low latency, high availability connections that enable you to reliably transfer data between your on-premises and Google Cloud Virtual Private Cloud (VPC) networks
 
 Also, Interconnect connections provide internal IP address communication, which means internal IP addresses are directly accessible from both networks
+
+----
+
+### Interconnect
 
 ![Interconnect](img/interconnect.png)
