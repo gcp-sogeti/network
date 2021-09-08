@@ -29,7 +29,7 @@
 
 ### Load balancing
 
-![Load Balancing](img/load-balancing.png)
+<img src="img/load-balancing.jpg" width="80%" />
 
 ----
 
