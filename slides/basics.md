@@ -4,18 +4,15 @@
 
 ### OSI Model
 
-<table>
-    	<table><tr>
-            <th>
-              <img src="img/OSI-7-layers.jpg" width="100%" />
-            </th>
-            <th>
+<img src="img/OSI-7-layers.jpg" width="100%" />
+
+----
+
+### OSI Model
 | Layer # | Name | Description |
 |---|---|---|
 | 7 | Application layer | Human-computer interaction layer, where applications can access the network services |
 | 6 | Presentation layer | Ensures that data is in a usable format and is where data encryption occurs |
-            </th>
-       </table>
 
 ----
 
