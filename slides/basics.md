@@ -7,7 +7,7 @@
 <table>
     	<table><tr>
             <th>
-              <img src="img/OSI-7-layers.jpg" width="40%" />
+              <img src="img/OSI-7-layers.jpg" width="100%" />
             </th>
             <th>
 | Layer # | Name | Description |
