@@ -4,10 +4,17 @@
 
 ### OSI Model
 
+<table>
+    	<table><tr>
+            <th>
+            </th>
+            <th>
 | Layer # | Name | Description |
 |---|---|---|
 | 7 | Application layer | Human-computer interaction layer, where applications can access the network services |
 | 6 | Presentation layer | Ensures that data is in a usable format and is where data encryption occurs |
+            </th>
+       </table>
 
 ----
 
