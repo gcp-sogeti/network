@@ -4,7 +4,7 @@
 
 ### OSI Model
 
-<img src="img/OSI-7-layers.jpg" width="100%" />
+<img src="img/OSI-7-layers.jpg" width="80%" />
 
 ----
 
