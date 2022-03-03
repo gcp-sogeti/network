@@ -16,12 +16,12 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="slides/title.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
-        <section data-markdown="slides/introduction.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
-        <section data-markdown="slides/basics.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
-        <section data-markdown="slides/advanced.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
-        <section data-markdown="slides/gcp.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
-        <section data-markdown="slides/conclusion.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/title.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="zoom" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/introduction.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="zoom" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/basics.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="zoom" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/advanced.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="convex" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/gcp.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="concave" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/conclusion.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-transition="zoom" data-separator-notes="^Note:" data-charset="utf-8"></section>
       </div>
     </div>
 
@@ -36,6 +36,15 @@
             progress: true,
             history: true,
             center: true,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 1.0,
+            // The "normal" size of the presentation, aspect ratio will
+            // be preserved when the presentation is scaled to fit different
+            // resolutions. Can be specified using percentage units.
+            width: 1152,
+            height: 864,
+
 
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
         });
