@@ -5,14 +5,6 @@
 ### Cloud NAT
 
 Cloud NAT lets certain resources without external IP addresses create outbound connections to the internet.
-<img src="https://thecloudgirl.dev/images/CloudNAT.jpg" width="90%" />
-Ref : https://thecloudgirl.dev/sketchnote.html
-
-----
-
-### Cloud NAT
-
-Cloud NAT lets certain resources without external IP addresses create outbound connections to the internet.
 
 <img src="img/cloud-nat.png" width="90%" />
 
