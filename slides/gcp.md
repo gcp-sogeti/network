@@ -5,14 +5,6 @@
 ### Cloud NAT
 
 Cloud NAT lets certain resources without external IP addresses create outbound connections to the internet.
-<img src="https://thecloudgirl.dev/images/CloudNAT.jpg" width="90%" />
-Ref : https://thecloudgirl.dev/sketchnote.html
-
-----
-
-### Cloud NAT
-
-Cloud NAT lets certain resources without external IP addresses create outbound connections to the internet.
 
 <img src="img/cloud-nat.png" width="90%" />
 
@@ -22,7 +14,7 @@ Cloud NAT lets certain resources without external IP addresses create outbound c
 
 Cloud DNS is a high-performance, resilient, global Domain Name System (DNS) service that publishes your domain names to the global DNS in a cost-effective way
 
-<img src="https://thecloudgirl.dev/images/CloudDNS.jpg" width="90%" />
+<img src="img/cloud-dns.png" width="100%" />
 
 ----
 
